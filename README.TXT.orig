@@ -1,20 +1,3 @@
-sslaudit
-========
-
-Originally from https://code.google.com/p/sslaudit/, released under Perl Artistic or GPL license.
-
-Prerequisites:
-==============
-Perl modules:
-Config::IniFiles
-Socket
-IO::Socket::SSL
-Net::SSLeay
-Time::gmtime
-Time::ParseDate
-DateTime
-DateTime::Format::Duration
-
 Introduction:
 =============
 
