@@ -6,14 +6,14 @@ Originally from https://code.google.com/p/sslaudit/, released under Perl Artisti
 Prerequisites:
 ==============
 Perl modules:
-Config::IniFiles
-Socket
-IO::Socket::SSL
-Net::SSLeay
-Time::gmtime
-Time::ParseDate
-DateTime
-DateTime::Format::Duration
+* Config::IniFiles
+* Socket
+* IO::Socket::SSL
+* Net::SSLeay
+* Time::gmtime
+* Time::ParseDate
+* DateTime
+* DateTime::Format::Duration
 
 Introduction:
 =============
@@ -42,7 +42,7 @@ Usage:
 
 Example output:
 ===============
-
+```
 $ sslaudit.pl www.google.com
 
 Connecting to www.google.com:443 - OK
@@ -253,5 +253,4 @@ TLSv12 cipher score: 90 (A)
 
 
 Protocol score: 90 (A)
-
-
+```
