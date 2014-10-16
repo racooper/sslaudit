@@ -229,7 +229,7 @@ my ( $host, $port );
 my @protocol_scores = ();
 my @cipher_scores   = ();
 if ( ( $numArgs < 1 ) || ( $numArgs > 2 ) ) {
-	print "Usage: sslaudit.pl host [port]";
+	print "Usage: sslaudit.pl host [port]\n";
 	exit;
 } else {
 	$host = $ARGV[0];
